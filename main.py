@@ -1,12 +1,5 @@
-import \
-	discord, \
-	json, \
-	asyncio, \
-	random, \
-	threading as th, \
-	requests
+import discord, json
 
-from datetime import datetime as time
 from discord.ext import commands
 from generator import generate
 

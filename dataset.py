@@ -4,7 +4,7 @@ from discord.ext import commands
 from alive_progress import alive_bar
 from datetime import datetime
 
-bot = commands.Bot(command_prefix=' ')
+bot = commands.Bot(command_prefix=' ', intents=discord.Intents.all())
 config = json.load(open('config.json'))
 
 class bcolors:

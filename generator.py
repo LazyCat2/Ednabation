@@ -1,6 +1,6 @@
 import os, json, random
 
-dataset = json.load(open(f"dataset/{len(os.listdir('dataset'))}.json"))
+dataset = json.load(open("dataset.json"))
 keys = dataset.keys()
 
 def generate(start):
